@@ -14,6 +14,7 @@ function ModalTrigger({ children, modal, modalProps = {} }: ModalTriggerProps) {
   const { open } = useModals();
 
   const onHandleOpenModal = () => {
+    console.log('open modal');
     open(modal, modalProps);
   };
 

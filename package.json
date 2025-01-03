@@ -1,6 +1,6 @@
 {
-  "name": "srcl",
-  "description": "SRCL is an open-source React component and style repository that helps you build web applications, desktop applications, and static websites with terminal aesthetics. Its modular, easy-to-use components emphasize precise monospace character spacing and line heights, enabling you to quickly copy and paste implementations while maintaining a clean, efficient codebase.",
+  "name": "jonsamp.dev",
+  "description": "The website of Jon Samp.",
   "engines": {
     "node": ">=18"
   },

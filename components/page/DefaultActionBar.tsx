@@ -125,75 +125,75 @@ const DefaultActionBar: React.FC<DefaultActionBarProps> = ({ items = [] }) => {
     <div className={styles.root}>
       <ActionBar
         items={[
-          {
-            body: 'Fonts',
-            items: [
-              {
-                icon: '⊹',
-                children: 'Commit Mono V143 [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-commit-mono'),
-              },
-              {
-                icon: '⊹',
-                children: 'Departure Mono [MIT]',
-                onClick: () => Utilities.onHandleFontChange('font-use-departure-mono'),
-              },
-              {
-                icon: '⊹',
-                children: 'Fira Code [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-fira-code'),
-              },
-              {
-                icon: '⊹',
-                children: 'Fragment Mono [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-fragment-mono'),
-              },
-              {
-                icon: '⊹',
-                children: 'Geist Mono [OFL] [DEFAULT]',
-                onClick: () => Utilities.onHandleFontChange(''),
-              },
-              {
-                icon: '⊹',
-                children: 'Iosevka Term [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-iosevka-term'),
-              },
-              {
-                icon: '⊹',
-                children: 'JetBrains Mono [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-jet-brains-mono'),
-              },
-              {
-                icon: '⊹',
-                children: 'SFMono Square [FOSS]',
-                onClick: () => Utilities.onHandleFontChange('font-use-sfmono-square'),
-              },
-              {
-                icon: '⊹',
-                children: 'Server Mono 0.0.6 [OFL]',
-                onClick: () => Utilities.onHandleFontChange('font-use-server-mono'),
-              },
-              {
-                icon: '⊹',
-                children: 'TX-02 Berkeley Mono™',
-                onClick: () => Utilities.onHandleFontChange('font-use-berkeley-mono'),
-              },
-            ],
-          },
+          // {
+          //   body: 'Fonts',
+          //   items: [
+          //     {
+          //       icon: '⊹',
+          //       children: 'Commit Mono V143 [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-commit-mono'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Departure Mono [MIT]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-departure-mono'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Fira Code [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-fira-code'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Fragment Mono [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-fragment-mono'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Geist Mono [OFL] [DEFAULT]',
+          //       onClick: () => Utilities.onHandleFontChange(''),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Iosevka Term [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-iosevka-term'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'JetBrains Mono [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-jet-brains-mono'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'SFMono Square [FOSS]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-sfmono-square'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'Server Mono 0.0.6 [OFL]',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-server-mono'),
+          //     },
+          //     {
+          //       icon: '⊹',
+          //       children: 'TX-02 Berkeley Mono™',
+          //       onClick: () => Utilities.onHandleFontChange('font-use-berkeley-mono'),
+          //     },
+          //   ],
+          // },
           {
             hotkey: '⌃+T',
             onClick: () => Utilities.onHandleThemeChange(),
             body: 'Theme',
             selected: false,
           },
-          {
-            hotkey: '⌃+G',
-            onClick: () => {
-              toggleDebugGrid();
-            },
-            body: 'Grid',
-            selected: false,
-          },
+          // {
+          //   hotkey: '⌃+G',
+          //   onClick: () => {
+          //     toggleDebugGrid();
+          //   },
+          //   body: 'Grid',
+          //   selected: false,
+          // },
           ...items,
         ]}
       />
