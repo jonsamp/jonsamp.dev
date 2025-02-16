@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "jonsamp.dev",
+    "slug": "jonsamp-dev",
+    "extra": {
+      "eas": {
+        "projectId": "320ef21b-af1d-4739-a2ff-a56d701e65fd"
+      }
+    }
+  }
+}
