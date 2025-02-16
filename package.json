@@ -10,7 +10,8 @@
     "dev": "next -p 10000",
     "build": "next build",
     "start": "PORT=10000 next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "eas deploy --prod --export-dir out"
   },
   "dependencies": {
     "next": "^15.1.3",
