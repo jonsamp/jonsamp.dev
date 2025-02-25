@@ -72,6 +72,35 @@ export default async function Page() {
       </Grid>
       <Grid>
         <Card title="APP" mode="left">
+          <Avatar src="/projects/qru/icon.png" style={{ borderRadius: '8px', alignItems: 'center', display: 'flex', justifyContent: 'center' }} target="_blank">
+            <Indent>
+              <strong>QRU?</strong>
+              <br />
+              Scan QR code data.
+            </Indent>
+          </Avatar>
+          <br />
+          Every QR code holds data. It can be a link, a wifi network and password, or just text. Computers understand how to read this data but they rarely make it easy to read. Default camera apps show truncated URLs or show "Open in [app name]", obscuring the data completely.
+          <br />
+          <br />
+          QRU? reads QR codes and shows the data in a clean, readable format. It saves the URLs for later use, which is handy when debugging QR codes.
+          <br />
+          <br />
+          <div style={{ display: 'flex', flexDirection: 'row', gap: '2%', marginBottom: '2ch' }}>
+            <img src="/projects/qru/dev-client.png" style={{ width: '18%' }} />
+            <img src="/projects/qru/made-with-expo.png" style={{ width: '18%' }} />
+            <img src="/projects/qru/log.png" style={{ width: '18%' }} />
+          </div>
+          <a href="https://apps.apple.com/us/app/qru/id6741717337" target="_blank">
+            <Button> Apple App Store</Button>
+          </a>
+          <a href="https://github.com/jonsamp/qru" target="_blank">
+            <Button theme="SECONDARY">GitHub</Button>
+          </a>
+        </Card>
+      </Grid>
+      <Grid>
+        <Card title="APP" mode="left">
           <Avatar src="/projects/word-check/icon.png" style={{ borderRadius: '8px', alignItems: 'center', display: 'flex', justifyContent: 'center' }} target="_blank">
             <Indent>
               <strong>WORD CHECK</strong>
